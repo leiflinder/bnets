@@ -16,6 +16,7 @@ code {
   margin:20px;
 }
 
+
 .roster-container table thead, tbody, tfoot, tr, td, th {
   border: 0;
 }
@@ -41,4 +42,34 @@ code {
 .roster-container .HCC_TD {
   width: 200px;
   text-align:left;
+}
+
+.NavbarBrand {
+  border:solid red 3px;
+}
+
+.netslogo {
+  width:100px;
+}
+
+.logo_container {
+  width:210px;
+  float:left;
+}
+
+.title_container {
+  padding-top:30px;
+  width:210px;
+  float:left;
+}
+.navContainer{
+  float:left;
+  padding-bottom:30px;
+  margin-bottom:40px;
+  width:100%;
+  border-bottom:1px solid #ccc;
+}
+
+.clearLeft{
+clear:left;
 }
