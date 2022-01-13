@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.roster-container {
+  margin:20px;
+}
+
+.roster-container table thead, tbody, tfoot, tr, td, th {
+  border: 0;
+}
+
+.roster-container .table > :not(:first-child) {
+  border: 0;
+}
+
+.roster-container table tr:nth-child(even) {
+  /* background-color: #f2f2f2; */
+  background-color: #f8f8f8;
+}
+
+.roster-container table td {
+ /* border:solid 1px #ccc; */
+ border-collapse:collapse;
+}
+
+.roster-container table img {
+  width:60px;
+}
+
+.roster-container .HCC_TD {
+  width: 200px;
+  text-align:left;
+}
